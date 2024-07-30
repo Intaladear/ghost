@@ -1,5 +1,5 @@
 # ghost
-Ghost with docker compose file(ghost, nginx, db)
+Ghost with docker-compose file(ghost, nginx, db)
 
 git clone 
 cd ghost
