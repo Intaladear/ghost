@@ -18,4 +18,4 @@ apt-get install vim
 cd /etc/nginx
 vim nginx.conf
 
-Add "client_max_body_size 5M" in the http section.
+Add "client_max_body_size 5M;" in the http section.
