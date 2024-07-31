@@ -8,6 +8,7 @@ services:
     ports:
       - 2368:2368
     environment:
+      #url: http://changetoyourdomainname/
       #url: http://localhost:3000/
       url: http://localhost/
       database__client: mysql
