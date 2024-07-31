@@ -8,7 +8,8 @@ services:
     ports:
       - 2368:2368
     environment:
-      url: http://localhost:3000/
+      #url: http://localhost:3000/
+      url: http://localhost/
       database__client: mysql
       database__connection__host: ghost-db
       database__connection__user: ghost
