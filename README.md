@@ -64,3 +64,14 @@ server {
       root /var/www/certbot;
   }
 }
+
+
+##run .init-letsencrypt.sh
+give file permission before run the script. brows to script directory.
+sudo chmod +x init-letsencrypts.sh
+./init-letsencrypts.sh
+
+##run sudo docker-compose up -d
+
+
+
