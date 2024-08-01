@@ -66,6 +66,8 @@ server {
 }
 
 
+
+
 ##run .init-letsencrypt.sh
 give file permission before run the script. brows to script directory.
 sudo chmod +x init-letsencrypts.sh
@@ -73,5 +75,6 @@ sudo chmod +x init-letsencrypts.sh
 
 ##run sudo docker-compose up -d
 
+nginx restarting > rerun .sh and docker-compose (wait a little all will running).
 
 
